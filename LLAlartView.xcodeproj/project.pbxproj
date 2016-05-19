@@ -7,17 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2A22A7301CEC12B10061ABEB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A22A72F1CEC12B10061ABEB /* main.m */; };
-		2A22A7331CEC12B10061ABEB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A22A7321CEC12B10061ABEB /* AppDelegate.m */; };
-		2A22A7361CEC12B10061ABEB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A22A7351CEC12B10061ABEB /* ViewController.m */; };
-		2A22A73B1CEC12B10061ABEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A22A73A1CEC12B10061ABEB /* Assets.xcassets */; };
-		2A22A73E1CEC12B10061ABEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A22A73C1CEC12B10061ABEB /* LaunchScreen.storyboard */; };
 		2A22A7491CEC12B10061ABEB /* LLAlartViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A22A7481CEC12B10061ABEB /* LLAlartViewTests.m */; };
 		2A22A7541CEC12B10061ABEB /* LLAlartViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A22A7531CEC12B10061ABEB /* LLAlartViewUITests.m */; };
-		2A22A7661CEC12CA0061ABEB /* LLAlertModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A22A7631CEC12CA0061ABEB /* LLAlertModel.m */; };
-		2A22A7671CEC12CA0061ABEB /* LLAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A22A7651CEC12CA0061ABEB /* LLAlertView.m */; };
-		2A22A76B1CEC14DD0061ABEB /* UIImage+RTTint.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A22A76A1CEC14DD0061ABEB /* UIImage+RTTint.m */; };
-		2A22A76F1CEC17EC0061ABEB /* LLAlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A22A76E1CEC17EC0061ABEB /* LLAlertView.xib */; };
+		2A7DD7F61CEDCB600075CD10 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2A7DD7ED1CEDCB600075CD10 /* Info.plist */; };
+		2A7DD7F71CEDCB600075CD10 /* LLAlertModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A7DD7EF1CEDCB600075CD10 /* LLAlertModel.m */; };
+		2A7DD7F81CEDCB600075CD10 /* LLAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A7DD7F11CEDCB600075CD10 /* LLAlertView.m */; };
+		2A7DD7F91CEDCB600075CD10 /* LLAlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A7DD7F21CEDCB600075CD10 /* LLAlertView.xib */; };
+		2A7DD7FA1CEDCB600075CD10 /* UIImage+RTTint.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A7DD7F51CEDCB600075CD10 /* UIImage+RTTint.m */; };
+		2A7DD8041CEDCB680075CD10 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A7DD7FD1CEDCB680075CD10 /* AppDelegate.m */; };
+		2A7DD8051CEDCB680075CD10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A7DD7FE1CEDCB680075CD10 /* Assets.xcassets */; };
+		2A7DD8061CEDCB680075CD10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A7DD7FF1CEDCB680075CD10 /* LaunchScreen.storyboard */; };
+		2A7DD8071CEDCB680075CD10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A7DD8011CEDCB680075CD10 /* main.m */; };
+		2A7DD8081CEDCB680075CD10 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A7DD8031CEDCB680075CD10 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,29 +40,29 @@
 
 /* Begin PBXFileReference section */
 		2A22A72B1CEC12B00061ABEB /* LLAlartView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LLAlartView.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2A22A72F1CEC12B10061ABEB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2A22A7311CEC12B10061ABEB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		2A22A7321CEC12B10061ABEB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2A22A7341CEC12B10061ABEB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2A22A7351CEC12B10061ABEB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		2A22A73A1CEC12B10061ABEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2A22A73D1CEC12B10061ABEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		2A22A73F1CEC12B10061ABEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A22A7441CEC12B10061ABEB /* LLAlartViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LLAlartViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A22A7481CEC12B10061ABEB /* LLAlartViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLAlartViewTests.m; sourceTree = "<group>"; };
 		2A22A74A1CEC12B10061ABEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A22A74F1CEC12B10061ABEB /* LLAlartViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LLAlartViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A22A7531CEC12B10061ABEB /* LLAlartViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLAlartViewUITests.m; sourceTree = "<group>"; };
 		2A22A7551CEC12B10061ABEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2A22A7621CEC12CA0061ABEB /* LLAlertModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLAlertModel.h; sourceTree = "<group>"; };
-		2A22A7631CEC12CA0061ABEB /* LLAlertModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLAlertModel.m; sourceTree = "<group>"; };
-		2A22A7641CEC12CA0061ABEB /* LLAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLAlertView.h; sourceTree = "<group>"; };
-		2A22A7651CEC12CA0061ABEB /* LLAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLAlertView.m; sourceTree = "<group>"; };
-		2A22A7691CEC14DD0061ABEB /* UIImage+RTTint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+RTTint.h"; sourceTree = "<group>"; };
-		2A22A76A1CEC14DD0061ABEB /* UIImage+RTTint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RTTint.m"; sourceTree = "<group>"; };
-		2A22A76E1CEC17EC0061ABEB /* LLAlertView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LLAlertView.xib; sourceTree = "<group>"; };
-		2A22A7701CEC37A50061ABEB /* DefineMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DefineMacro.h; sourceTree = "<group>"; };
-		2A7DD7CD1CEDC6A90075CD10 /* LLAlertViewProfile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLAlertViewProfile.h; sourceTree = "<group>"; };
+		2A7DD7EC1CEDCB600075CD10 /* DefineMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefineMacro.h; sourceTree = "<group>"; };
+		2A7DD7ED1CEDCB600075CD10 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A7DD7EE1CEDCB600075CD10 /* LLAlertModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLAlertModel.h; sourceTree = "<group>"; };
+		2A7DD7EF1CEDCB600075CD10 /* LLAlertModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLAlertModel.m; sourceTree = "<group>"; };
+		2A7DD7F01CEDCB600075CD10 /* LLAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLAlertView.h; sourceTree = "<group>"; };
+		2A7DD7F11CEDCB600075CD10 /* LLAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLAlertView.m; sourceTree = "<group>"; };
+		2A7DD7F21CEDCB600075CD10 /* LLAlertView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LLAlertView.xib; sourceTree = "<group>"; };
+		2A7DD7F31CEDCB600075CD10 /* LLAlertViewProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLAlertViewProfile.h; sourceTree = "<group>"; };
+		2A7DD7F41CEDCB600075CD10 /* UIImage+RTTint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+RTTint.h"; sourceTree = "<group>"; };
+		2A7DD7F51CEDCB600075CD10 /* UIImage+RTTint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RTTint.m"; sourceTree = "<group>"; };
+		2A7DD7FC1CEDCB680075CD10 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2A7DD7FD1CEDCB680075CD10 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2A7DD7FE1CEDCB680075CD10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A7DD8001CEDCB680075CD10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2A7DD8011CEDCB680075CD10 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A7DD8021CEDCB680075CD10 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2A7DD8031CEDCB680075CD10 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,26 +113,10 @@
 		2A22A72D1CEC12B10061ABEB /* LLAlartView */ = {
 			isa = PBXGroup;
 			children = (
-				2A22A7611CEC12CA0061ABEB /* LKAlertView */,
-				2A7DD7CD1CEDC6A90075CD10 /* LLAlertViewProfile.h */,
-				2A22A7311CEC12B10061ABEB /* AppDelegate.h */,
-				2A22A7321CEC12B10061ABEB /* AppDelegate.m */,
-				2A22A7341CEC12B10061ABEB /* ViewController.h */,
-				2A22A7351CEC12B10061ABEB /* ViewController.m */,
-				2A22A73A1CEC12B10061ABEB /* Assets.xcassets */,
-				2A22A73C1CEC12B10061ABEB /* LaunchScreen.storyboard */,
-				2A22A73F1CEC12B10061ABEB /* Info.plist */,
-				2A22A72E1CEC12B10061ABEB /* Supporting Files */,
+				2A7DD7FB1CEDCB680075CD10 /* Examples */,
+				2A7DD7EB1CEDCB600075CD10 /* LLAlartView */,
 			);
 			path = LLAlartView;
-			sourceTree = "<group>";
-		};
-		2A22A72E1CEC12B10061ABEB /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				2A22A72F1CEC12B10061ABEB /* main.m */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		2A22A7471CEC12B10061ABEB /* LLAlartViewTests */ = {
@@ -152,20 +137,36 @@
 			path = LLAlartViewUITests;
 			sourceTree = "<group>";
 		};
-		2A22A7611CEC12CA0061ABEB /* LKAlertView */ = {
+		2A7DD7EB1CEDCB600075CD10 /* LLAlartView */ = {
 			isa = PBXGroup;
 			children = (
-				2A22A7691CEC14DD0061ABEB /* UIImage+RTTint.h */,
-				2A22A76A1CEC14DD0061ABEB /* UIImage+RTTint.m */,
-				2A22A7621CEC12CA0061ABEB /* LLAlertModel.h */,
-				2A22A7631CEC12CA0061ABEB /* LLAlertModel.m */,
-				2A22A7641CEC12CA0061ABEB /* LLAlertView.h */,
-				2A22A7651CEC12CA0061ABEB /* LLAlertView.m */,
-				2A22A76E1CEC17EC0061ABEB /* LLAlertView.xib */,
-				2A22A7701CEC37A50061ABEB /* DefineMacro.h */,
+				2A7DD7EC1CEDCB600075CD10 /* DefineMacro.h */,
+				2A7DD7ED1CEDCB600075CD10 /* Info.plist */,
+				2A7DD7EE1CEDCB600075CD10 /* LLAlertModel.h */,
+				2A7DD7EF1CEDCB600075CD10 /* LLAlertModel.m */,
+				2A7DD7F01CEDCB600075CD10 /* LLAlertView.h */,
+				2A7DD7F11CEDCB600075CD10 /* LLAlertView.m */,
+				2A7DD7F21CEDCB600075CD10 /* LLAlertView.xib */,
+				2A7DD7F31CEDCB600075CD10 /* LLAlertViewProfile.h */,
+				2A7DD7F41CEDCB600075CD10 /* UIImage+RTTint.h */,
+				2A7DD7F51CEDCB600075CD10 /* UIImage+RTTint.m */,
 			);
-			path = LKAlertView;
+			name = LLAlartView;
 			sourceTree = "<group>";
+		};
+		2A7DD7FB1CEDCB680075CD10 /* Examples */ = {
+			isa = PBXGroup;
+			children = (
+				2A7DD7FC1CEDCB680075CD10 /* AppDelegate.h */,
+				2A7DD7FD1CEDCB680075CD10 /* AppDelegate.m */,
+				2A7DD7FE1CEDCB680075CD10 /* Assets.xcassets */,
+				2A7DD7FF1CEDCB680075CD10 /* LaunchScreen.storyboard */,
+				2A7DD8011CEDCB680075CD10 /* main.m */,
+				2A7DD8021CEDCB680075CD10 /* ViewController.h */,
+				2A7DD8031CEDCB680075CD10 /* ViewController.m */,
+			);
+			path = Examples;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -270,9 +271,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A22A73E1CEC12B10061ABEB /* LaunchScreen.storyboard in Resources */,
-				2A22A73B1CEC12B10061ABEB /* Assets.xcassets in Resources */,
-				2A22A76F1CEC17EC0061ABEB /* LLAlertView.xib in Resources */,
+				2A7DD7F61CEDCB600075CD10 /* Info.plist in Resources */,
+				2A7DD8051CEDCB680075CD10 /* Assets.xcassets in Resources */,
+				2A7DD8061CEDCB680075CD10 /* LaunchScreen.storyboard in Resources */,
+				2A7DD7F91CEDCB600075CD10 /* LLAlertView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,12 +299,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A22A7361CEC12B10061ABEB /* ViewController.m in Sources */,
-				2A22A7661CEC12CA0061ABEB /* LLAlertModel.m in Sources */,
-				2A22A76B1CEC14DD0061ABEB /* UIImage+RTTint.m in Sources */,
-				2A22A7671CEC12CA0061ABEB /* LLAlertView.m in Sources */,
-				2A22A7331CEC12B10061ABEB /* AppDelegate.m in Sources */,
-				2A22A7301CEC12B10061ABEB /* main.m in Sources */,
+				2A7DD8081CEDCB680075CD10 /* ViewController.m in Sources */,
+				2A7DD8071CEDCB680075CD10 /* main.m in Sources */,
+				2A7DD8041CEDCB680075CD10 /* AppDelegate.m in Sources */,
+				2A7DD7F71CEDCB600075CD10 /* LLAlertModel.m in Sources */,
+				2A7DD7F81CEDCB600075CD10 /* LLAlertView.m in Sources */,
+				2A7DD7FA1CEDCB600075CD10 /* UIImage+RTTint.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,10 +340,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		2A22A73C1CEC12B10061ABEB /* LaunchScreen.storyboard */ = {
+		2A7DD7FF1CEDCB680075CD10 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				2A22A73D1CEC12B10061ABEB /* Base */,
+				2A7DD8001CEDCB680075CD10 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
