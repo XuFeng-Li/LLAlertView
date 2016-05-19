@@ -57,11 +57,11 @@
 		2A22A7631CEC12CA0061ABEB /* LLAlertModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLAlertModel.m; sourceTree = "<group>"; };
 		2A22A7641CEC12CA0061ABEB /* LLAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLAlertView.h; sourceTree = "<group>"; };
 		2A22A7651CEC12CA0061ABEB /* LLAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLAlertView.m; sourceTree = "<group>"; };
-		2A22A7681CEC13F10061ABEB /* LLAlertViewProfile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLAlertViewProfile.h; sourceTree = "<group>"; };
 		2A22A7691CEC14DD0061ABEB /* UIImage+RTTint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+RTTint.h"; sourceTree = "<group>"; };
 		2A22A76A1CEC14DD0061ABEB /* UIImage+RTTint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RTTint.m"; sourceTree = "<group>"; };
 		2A22A76E1CEC17EC0061ABEB /* LLAlertView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LLAlertView.xib; sourceTree = "<group>"; };
 		2A22A7701CEC37A50061ABEB /* DefineMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DefineMacro.h; sourceTree = "<group>"; };
+		2A7DD7CD1CEDC6A90075CD10 /* LLAlertViewProfile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLAlertViewProfile.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				2A22A7611CEC12CA0061ABEB /* LKAlertView */,
+				2A7DD7CD1CEDC6A90075CD10 /* LLAlertViewProfile.h */,
 				2A22A7311CEC12B10061ABEB /* AppDelegate.h */,
 				2A22A7321CEC12B10061ABEB /* AppDelegate.m */,
 				2A22A7341CEC12B10061ABEB /* ViewController.h */,
@@ -162,7 +163,6 @@
 				2A22A7651CEC12CA0061ABEB /* LLAlertView.m */,
 				2A22A76E1CEC17EC0061ABEB /* LLAlertView.xib */,
 				2A22A7701CEC37A50061ABEB /* DefineMacro.h */,
-				2A22A7681CEC13F10061ABEB /* LLAlertViewProfile.h */,
 			);
 			path = LKAlertView;
 			sourceTree = "<group>";
@@ -520,6 +520,7 @@
 				2A22A75A1CEC12B10061ABEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2A22A75B1CEC12B10061ABEB /* Build configuration list for PBXNativeTarget "LLAlartViewTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +529,7 @@
 				2A22A75D1CEC12B10061ABEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2A22A75E1CEC12B10061ABEB /* Build configuration list for PBXNativeTarget "LLAlartViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +538,7 @@
 				2A22A7601CEC12B10061ABEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
